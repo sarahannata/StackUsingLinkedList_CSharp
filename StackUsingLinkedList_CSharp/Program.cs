@@ -89,7 +89,9 @@ namespace StackUsingLinkedList_CSharp
                         break;
                     case '4':
                         return;
-
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
                 }
             }
         }
